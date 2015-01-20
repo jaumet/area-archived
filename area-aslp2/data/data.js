@@ -182,7 +182,7 @@ var DATA =
 	"weekDay" : "Tuesday",
 	"startTime" : "09:00", 
 	"endTime" : "17:00", 
-	"category" : "Adminstrative", 
+	"category" : "Administrative", 
 	"noAttendants" : "12",
 	"noFemale" : "N/A",
 	"noYoung_Girls_Boys" : "N/A", 
