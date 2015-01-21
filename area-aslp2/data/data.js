@@ -34,6 +34,7 @@ Fields for each item and their description: each item refers to an activity done
 var DATA = 
 [{
 	"id" : 1, 
+	"activities": "Activities", 
 	"date" : "14-12-2014", 
 	"weekDay" : "Sunday",
 	"startTime" : "09:00", 
@@ -52,6 +53,7 @@ var DATA =
 },
 {
 	"id" : 2, 
+	"activities": "Activities", 
 	"date" : "14-12-2014", 
 	"weekDay" : "Sunday",
 	"startTime" : "12:30", 
@@ -70,6 +72,7 @@ var DATA =
 },
 {
 	"id" : 3, 
+	"activities": "Activities", 
 	"date" : "14-12-2014", 
 	"weekDay" : "Sunday",
 	"startTime" : "14:00" , 
@@ -88,6 +91,7 @@ var DATA =
 },
 {
 	"id" : 4, 
+	"activities": "Activities", 
 	"date" : "14-12-2014", 
 	"weekDay" : "Sunday",
 	"startTime" : "16:00" , 
@@ -106,6 +110,7 @@ var DATA =
 },
 {
 	"id" : 5, 
+	"activities": "Activities", 
 	"date" : "15-12-2014", 
 	"weekDay" : "Monday",
 	"startTime" : "10:00" , 
@@ -124,6 +129,7 @@ var DATA =
 },
 {
 	"id" : 6, 
+	"activities": "Activities", 
 	"date" : "15-12-2014", 
 	"weekDay" : "Monday",
 	"startTime" : "09:00" , 
@@ -142,6 +148,7 @@ var DATA =
 },
 {
 	"id" : 7, 
+	"activities": "Activities", 
 	"date" : "15-12-2014", 
 	"weekDay" : "Monday",
 	"startTime" : "11:00", 
@@ -160,6 +167,7 @@ var DATA =
 },
 {
 	"id" : 8, 
+	"activities": "Activities", 
 	"date" : "15-12-2014", 
 	"weekDay" : "Monday",
 	"startTime" : "15:00", 
@@ -178,6 +186,7 @@ var DATA =
 },
 {
 	"id" : 9, 
+	"activities": "Activities", 
 	"date" : "16-12-2014", 
 	"weekDay" : "Tuesday",
 	"startTime" : "09:00", 
@@ -196,6 +205,7 @@ var DATA =
 },
 {
 	"id" : 10, 
+	"activities": "Activities", 
 	"date" : "16-12-2014", 
 	"weekDay" : "Tuesday",
 	"startTime" : "09:00", 
@@ -214,6 +224,7 @@ var DATA =
 },
 {
 	"id" : 11, 
+	"activities": "Activities", 
 	"date" : "17-12-2014", 
 	"weekDay" : "Wednesday",
 	"startTime" : "09:00", 
@@ -232,6 +243,7 @@ var DATA =
 },
 {
 	"id" : 12, 
+	"activities": "Activities", 
 	"date" : "17-12-2014", 
 	"weekDay" : "Wednesday",
 	"startTime" : "09:00", 
@@ -250,6 +262,7 @@ var DATA =
 },
 {
 	"id" : 13, 
+	"activities": "Activities", 
 	"date" : "17-12-2014", 
 	"weekDay" : "Wednesday",
 	"startTime" : "10:00", 
@@ -268,6 +281,7 @@ var DATA =
 },
 {
 	"id" : 14, 
+	"activities": "Activities", 
 	"date" : "17-12-2014", 
 	"weekDay" : "Wednesday",
 	"startTime" : "11:00", 
@@ -286,6 +300,7 @@ var DATA =
 },
 {
 	"id" : 15, 
+	"activities": "Activities", 
 	"date" : "18-12-2012", 
 	"weekDay" : "Thursday",
 	"startTime" : "09:00", 
@@ -304,6 +319,7 @@ var DATA =
 },
 {
 	"id" : 16, 
+	"activities": "Activities", 
 	"date" : "18-12-2014", 
 	"weekDay" : "Thursday",
 	"startTime" : "15:00", 
@@ -322,6 +338,7 @@ var DATA =
 },
 {
 	"id" : 17, 
+	"activities": "Activities", 
 	"date" : "18-12-2014", 
 	"weekDay" : "Thursday",
 	"startTime" : "10:00", 
@@ -340,6 +357,7 @@ var DATA =
 },
 {
 	"id" : 18, 
+	"activities": "Activities", 
 	"date" : "19-12-2014", 
 	"weekDay" : "Friday",
 	"startTime" : "09:00", 
@@ -358,6 +376,7 @@ var DATA =
 },
 {
 	"id" : 19, 
+	"activities": "Activities", 
 	"date" : "19-12-2014", 
 	"weekDay" : "Friday",
 	"startTime" : "09:00", 
@@ -376,6 +395,7 @@ var DATA =
 },
 {
 	"id" : 20, 
+	"activities": "Activities", 
 	"date" : "5-12-2014", 
 	"weekDay" : "Friday",
 	"startTime" : "10:30", 
@@ -394,6 +414,7 @@ var DATA =
 },
 {
 	"id" : 21, 
+	"activities": "Activities", 
 	"date" : "6-12-2014", 
 	"weekDay" : "Saturday",
 	"startTime" : "11:00", 
@@ -412,6 +433,7 @@ var DATA =
 },
 {
 	"id" : 22, 
+	"activities": "Activities", 
 	"date" : "13-12-2014", 
 	"weekDay" : "Saturday",
 	"startTime" : "10:00", 
@@ -429,7 +451,8 @@ var DATA =
 	"officerName" : "Uzma Iqbal"
 },
 {
-	"id" : 23, 
+	"id" : 23,  
+	"activities": "Activities", 
 	"date" : "15-12-2014", 
 	"weekDay" : "Monday",
 	"startTime" : "N/A", 
@@ -448,6 +471,7 @@ var DATA =
 },
 {
 	"id" : 24, 
+	"activities": "Activities", 
 	"date" : "18-12-2014", 
 	"weekDay" : "Thursday",
 	"startTime" : "N/A", 

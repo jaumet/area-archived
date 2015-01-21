@@ -5,7 +5,8 @@ html, body {
   font-family: 'Ubuntu', sans-serif;
   font-size:1.0em;
   background-color:#fff;
-  color:black;
+  color:#7f7f7f;
+  background-color:white;
 }
 html{
   height: 100%;
@@ -17,7 +18,7 @@ body {
   width:1300px;
   height:100%;
   margin: 0px auto;
-  background-color:#fff;
+  /*background-color:#fff;*/
   padding:30px;
   padding-top:15px;
 }
@@ -54,6 +55,11 @@ footer {
   left: 0;
   z-index: 10;
 }
+
+h3 {font-size:2em;}
+h4 {font-size:1.5em;}
+a {text-decoration: none;color:black}
+
 .myheader, header h1 {
   text-align: center;
   line-height:1.3em;

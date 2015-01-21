@@ -59,6 +59,8 @@ var FIELDS = [
 			{ human: "Related media", areafilter: "1", type:"text", exclude: "1"},
     "officerName": 
 			{ human: "Officer Name", areafilter: "1", type:"text", exclude: "0"},
+    "activities": 
+			{ human: "Activities", areafilter: "0", type:"text", exclude: "0"},
 
 	}
 ];

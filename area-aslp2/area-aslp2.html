@@ -7,7 +7,6 @@
 	<script type="text/javascript" src="./js/d3.v2.min.js"></script>
 	<script type="text/javascript" src="./data/config.js"></script>
 	<script type="text/javascript" src="./data/data.js"></script>
-	<!--<script type="text/javascript" src="./data/my_topics.js"></script>-->
 	<link href="css/area.css" rel="stylesheet">
   <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
   </head>
@@ -24,15 +23,16 @@
    <div id="container"> 
   	<div id="panel">
       <header>
-      <h1>... logos here ...</h1>
-      <p class="myheader"><b>Australia-Pakistan Agriculture Sector Linkages Program (ASLP2)</b> is funded by DFAT and delivered by the Australian Centre for International Agricultural Research (ACIAR) through various research agencies, including the University of Canberra. It aims to build Pakistan’s technical capacity to improve agricultural productivity and marketing and increase the income to households of Pakistan smallholders.
-      </p>
-      <h3 class="myheadera">Welcome to ASLP2 Monitor & Evaluation report</h3>
-      <p></p>
-      
+      <h1><img src="images/logos/all-logos.png" /></h1>
+      <h2 class="myheader"><b>Australia-Pakistan Agriculture Sector Linkages Program (ASLP2)</b> is funded by DFAT and delivered by the Australian Centre for International Agricultural Research (ACIAR) through various research agencies, including the University of Canberra. It aims to build Pakistan’s technical capacity to improve agricultural productivity and marketing and increase the income to households of Pakistan smallholders.
+      </h2>
+      <hr />
+      <h3 class="myheader">Welcome to ASLP2 Monitor & Evaluation report</h3>
+      <p><img src="images/december2014.png" /></p>
+      <h4 class="myheadera">Explore here the activities. Each colored square represents an activity. Start changing the two parameters below:</h4>
       </header>
       <div id="title">
-        <p syle="padding:0;margin:0;">Choose <br />Parameters</p>
+        <p syle="padding:0;margin:0;"></p>
       </div>
 <!------
       <div id="config">
@@ -87,20 +87,21 @@
         <p>- <a id='data_overview'>Data details</a></p>
       </div>      
 
-      <span id="mainmenu" class="sidebarhead">ASLP2 menu</span>
+      <span id="mainmenu" class="sidebarhead">RESOURCES</span>
       <table class="mytable"><tbody>
-      <tr><td>- <a href="http://aslp2.nualart.cat/what-is-asl2-program/" target="aslp2">Australia-Pakistan Agriculture Sector Linkages Program (ASLP2)</a></td></tr>
-      <tr><td>- <a href="http://aciar.gov.au/" target="aciar">Australian Centre for International Agricultural Research (ACIAR)</a> </td></tr>
-      <tr><td>- <a href="http://aslp2.nualart.cat/" target="aslp2-cookbook">ASLP2 Cookbook</a>: documentation site of theAgriculture Sector Linkages Program (ASLP) communications systems. </td></tr>
+      <tr><td>- <a href="http://aslp2.nualart.cat/what-is-asl2-program/" target="aslp2">What is ASLP2?</a></td></tr>
+      <tr><td>- <a href="http://aciar.gov.au/" target="aciar">About ACIAR</a> </td></tr>
+      <tr><td>- <a href="http://aslp2.nualart.cat/" target="aslp2-cookbook">ASLP2 Cookbook</a></td></tr>
       <tr><td>- <a href="https://www.facebook.com/pages/Aslp2-Social-Project/275911232446217" target="slpd2-social">ASLP2 Social Project in Facebook</a> </td></tr>
       </tbody></table>
+      <span id="" class=""><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p></span>
     </sidebar>
 
     <div id="area"></div>
 
     <sidebar id="right">
       <div id='byfilter'>
-        <span class="sidebarhead">Filter papers</span>
+        <span class="sidebarhead">SEARCH</span>
         <p>
           <input id="filter" type="text" />
           <br /><span id="totals"></span>
@@ -113,7 +114,7 @@
       </div>
 
       <div id='tab4'>
-        <span class="sidebarhead">Configure colors</span>
+        <span class="sidebarhead">CHANGE COLORS</span>
         <p>
         <!------ Edit area size is hidden in this version --------------->
         <span style="display:none;">
@@ -426,7 +427,6 @@
 				legend1 += '<span class="legendtxt">'+param1_val+'</span>&nbsp;';
         //// FIXME spaces break the class name.
         param1_val_clean = clean_string(param1_val);//.split(' ').join('_');
-        console.log("clean_string(param1_val) -> "+clean_string(param1_val));
 				$('#area').append('<div id="b-'+param1_val_clean+'" class="block"><div class="blockname">'+param1_val+'</div></div>');
 				block_builder(DATA, blockx, blocky, param1_val, param2colors, FILTER, SELECTED);
 			});
@@ -496,12 +496,7 @@
       if ($(this).attr('class') == "clean_params") {
         $("#totals").html(" ");
       }
-      //return true;
 		});
-      
-		//$('#tab3').on('mouseenter', function(){
-		//   $(this).css("z-index", 10).animate({ height: "+=240"});
-		//})
 
 		$('#data_overview').on('click', function(){		
       $("#tab3").css("display", "block");
@@ -512,6 +507,32 @@
 
 		$("#node_info_close b, #tab3_close b").on("mouseover", function(event){ $("#node_info, #tab3").css("display", "none");});
     $(document).keyup(function(e) { if (e.keyCode == 27) { $("#node_info, #tab3").css("display", "none"); }});
+
+/////////////////////////////////////////////
+/*
+    // TOTAL Attendies:
+    var totalAttendants = 0;var my = 0;
+    $.each(DATA, function(i, el) {
+      if (el["noAttendants"] != "N/A") {
+        my = my + parseInt(el["noAttendants"]);
+        //console.log("TotAt = "+my);
+      } else {
+        //console.log("TotAt = NNNN/AAAAAA");
+      }
+    });
+    // TOTAL Women:
+    var noFemale = 0;var my = 0;
+    $.each(DATA, function(i, el) {
+      if (el["noFemale"] != "N/A") {
+        my = my + parseInt(el["noFemale"]);
+        console.log("TotAt = "+my);
+      } else {
+        console.log("TotAt = NNNN/AAAAAA");
+      }
+    });
+*/
+
+
     </script>
   </body>
 </html>
