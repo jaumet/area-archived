@@ -31,8 +31,9 @@ body {
 }
 #area {
   background-color:#ffffff;
-	border-bottom: 1px solid grey;
+  border-bottom: 1px solid grey;
   border-left: 1px solid grey;
+  padding-bottom: 40px;
 }
 #right, #left {
   width:170px;
