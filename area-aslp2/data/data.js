@@ -29,29 +29,26 @@ Fields for each item and their description: each item refers to an activity done
 
 */
 
-
-
 var DATA = 
 [{
-	"id" : 1, 
-	"activities": "Activities", 
-	"date" : "14-12-2014", 
-	"weekDay" : "Sunday",
-	"startTime" : "09:00", 
-	"endTime" : "12:00" , 
-	"category" : "Workshop" , 
-	"noAttendants" : "28",
-	"noFemale" : "N/A",
-	"noYoung_Girls_Boys" : "N/A", 
-	"groupRelated" : "Farmers", 
-	"cscName" : "Hot Laghari",
-	"region" : "Sindth", 
-	"activityTitle" : "Training Workshop on Mango Crop Nutrient management", 
-	"activityDescription" : "Workshop was conducted by Social Research Project Sindh in Hot Khan Laghari. In this workshop Field Assistant from local agriculture extension system, crop nutrient management expert of a famous fertilizer company Engro and farmers of focal village and catchment area were present. Expert gave a detailed presentation regarding requirement of mango and other crops and dosage and timings of application of fertilizers. Farmers shared their problems with expert and received suggestions and recommendations from Expert in workshop.", 
-	"pictures" : "",
-	"officerName" : "Mustafa Nangraj"
-},
-{
+    "id": 1,
+    "activities": "Activities",
+    "date": "14-12-2014",
+    "weekDay": "Sunday",
+    "startTime": "09:00",
+    "endTime": "12:00",
+    "category": "Workshop",
+    "noAttendants": "28",
+    "noFemale": "N/A",
+    "noYoung_Girls_Boys": "N/A",
+    "groupRelated": "Farmers",
+    "cscName": "Hot Laghari",
+    "region": "Sindth",
+    "activityTitle": "Training Workshop on Mango Crop Nutrient management",
+    "activityDescription": "Workshop was conducted by Social Research Project Sindh in Hot Khan Laghari. In this workshop Field Assistant from local agriculture extension system, crop nutrient management expert of a famous fertilizer company Engro and farmers of focal village and catchment area were present. Expert gave a detailed presentation regarding requirement of mango and other crops and dosage and timings of application of fertilizers. Farmers shared their problems with expert and received suggestions and recommendations from Expert in workshop.",
+    "pictures": "",
+    "officerName": "Mustafa Nangraj"
+}, {
 	"id" : 2, 
 	"activities": "Activities", 
 	"date" : "14-12-2014", 
